@@ -1,0 +1,25 @@
+#!/bin/bash
+
+clear
+NOWF=$(date +"%d-%m-%Y %T")
+#echo Time $NOWF
+#echo "Current directory " $PWD
+echo Time $NOWF>>log.txt
+
+export GOPATH=$PWD
+export GOROOT=$HOME/go
+export PATH=$PATH:$GOROOT/bin
+export CGO_ENABLED=1
+export GOCACHE="/home/airpc/.cache/go-build"
+export GOHOSTARCH="amd64"
+export GOHOSTOS="linux"
+export GOOS="linux"
+
+# echo $PATH
+# go get github.com/fatih/color
+
+#echo Start GO programm
+go build -o cam
+./cam -p 1999
+
+

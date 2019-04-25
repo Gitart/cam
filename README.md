@@ -1,4 +1,4 @@
-# cam
+# Cam
 Web cam service
 
 ### Created two variants
@@ -7,4 +7,8 @@ Web cam service
 
 ## Settings
 Of course can created more settings but it take many time.
+Both variant worked. But each have plus and minus. 
 I hope you see my varints in right light))
+
+Author
+Savchenko Arthur

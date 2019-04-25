@@ -1,4 +1,4 @@
-# Cam
+# Web Cam
 Web cam service
 
 ### Created two variants
